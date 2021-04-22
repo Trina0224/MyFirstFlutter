@@ -17,8 +17,10 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://avatars.githubusercontent.com/u/5771864?v=4'),
+            //   image: NetworkImage(
+            //       'https://avatars.githubusercontent.com/u/5771864?v=4'),
+            // ),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
